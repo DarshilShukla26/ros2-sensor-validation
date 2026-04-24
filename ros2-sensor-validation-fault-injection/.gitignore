@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+
+# ROS2 / colcon
+build/
+install/
+log/
+ros2_sensor_validation_ws/build/
+ros2_sensor_validation_ws/install/
+ros2_sensor_validation_ws/log/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store

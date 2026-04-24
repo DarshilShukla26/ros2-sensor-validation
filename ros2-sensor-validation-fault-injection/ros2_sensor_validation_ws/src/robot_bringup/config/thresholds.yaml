@@ -1,0 +1,11 @@
+sensor_health_monitor:
+  ros__parameters:
+    imu_expected_rate_hz: 100.0
+    imu_min_rate_hz: 90.0
+    camera_expected_rate_hz: 10.0
+    camera_min_rate_hz: 8.0
+    odom_expected_rate_hz: 50.0
+    odom_min_rate_hz: 45.0
+    sensor_timeout_sec: 1.0
+    max_timestamp_drift_sec: 0.20
+    startup_grace_period_sec: 2.0
